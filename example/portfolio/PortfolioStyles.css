@@ -616,8 +616,20 @@ body {
   .portfolio-main { margin-left: 0; padding: 20px; }
   .portfolio-works-grid { grid-auto-columns: 100%; }
   
+  .portfolio-header h1 { font-size: 26px; }
+  .portfolio-header p { font-size: 13px; }
+  .portfolio-header-actions { flex-direction: column; gap: 12px; align-items: center; }
+  .portfolio-btn { width: 100%; max-width: 250px; justify-content: center; }
+  
+  .portfolio-about { flex-direction: column; text-align: center; gap: 15px; padding: 25px 15px; }
+  
+  .portfolio-skills { grid-template-columns: 1fr; gap: 15px; }
+  
+  .portfolio-contact-card { grid-template-columns: 1fr; gap: 20px; }
+  
   .portfolio-mobile-header {
     display: flex;
+    justify-content: flex-end;
   }
   
   .portfolio-sidebar-overlay {
@@ -628,6 +640,8 @@ body {
     transform: translateX(-100%);
     z-index: 1000;
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    background-color: var(--portfolio-bg);
+    border-right: 1px solid var(--portfolio-border);
   }
   
   .portfolio-sidebar.open {

@@ -7,8 +7,8 @@ export const portfolioText = {
     header: {
       title: "Hi, I'm Gokul Sureshkumar",
       subtitle: "Full-Stack Developer & Designer. I build production web, desktop and mobile apps, and engineer custom systems and libraries.",
-      btnAbout: "LinkedIn ⬇",
-      btnCv: "GitHub ⬇",
+      btnAbout: "LinkedIn",
+      btnCv: "GitHub",
     },
     about: {
       sectionTitle: "About Me:",
