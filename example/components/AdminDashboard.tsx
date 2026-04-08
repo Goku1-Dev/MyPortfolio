@@ -1,0 +1,1 @@
+export default function AdminDashboard() { return <div style="color: var(--text);"><h2 style="margin-top: 0; color: var(--accent)">Admin Dashboard</h2><p style="color: var(--text-dim)">Secret Admin Data</p></div> }
