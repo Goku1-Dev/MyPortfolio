@@ -5,6 +5,7 @@ import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
 import WorksPage from "./WorksPage";
 import ResumePage from "./ResumePage";
+import ContactFooter from "./ContactFooter";
 import "./PortfolioStyles.css";
 
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
         </div>
 
         {() => renderPage()}
+        <ContactFooter />
       </main>
     </div>
   );

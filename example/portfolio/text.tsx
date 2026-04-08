@@ -118,10 +118,15 @@ export const portfolioText = {
       ],
     },
   },
+  resume: {
+    title: "Resume:",
+    subtitle: "Welcome to my portfolio. Get to know my trajectory:",
+    downloadBtn: "Download PDF",
+    pdfPlaceholder: "Upload your PDF resume here...",
+  },
   otherPages: {
     aboutTitle: "About",
     worksTitle: "Works",
-    resumeTitle: "Resume",
     comingSoon: "Content coming soon...",
   },
 };
