@@ -44,6 +44,7 @@ body {
 .scroll-reveal {
   opacity: 0;
   animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  will-change: transform, opacity;
 }
 
 .delay-100 { animation-delay: 100ms; }
@@ -171,8 +172,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-  backdrop-filter: blur(4px);
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s, background 0.3s;
 }
 
 .portfolio-btn:hover {
@@ -242,14 +242,14 @@ body {
 
 .portfolio-skill-card {
   background-color: rgba(186, 196, 208, 0.85);
-  backdrop-filter: blur(10px);
   color: #111;
   padding: 20px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s, background-color 0.3s;
   border: 1px solid rgba(255,255,255,0.1);
+  will-change: transform;
 }
 .portfolio-skill-card:hover {
   transform: translateY(-5px);
@@ -338,9 +338,8 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: transform 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-  backdrop-filter: blur(8px);
 }
 
 .portfolio-carousel-left:hover,
@@ -365,8 +364,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-  backdrop-filter: blur(8px);
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), background 0.3s, box-shadow 0.3s, border-color 0.3s;
 }
 
 .portfolio-nav-btn:hover {
@@ -403,26 +401,15 @@ body {
 
 .portfolio-work-card {
   background-color: var(--portfolio-card-bg);
-  backdrop-filter: blur(12px);
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid var(--portfolio-border);
   display: flex;
   flex-direction: column;
   scroll-snap-align: start;
-  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s, border-color 0.4s;
   position: relative;
-}
-.portfolio-work-card::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  border-radius: 8px;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  pointer-events: none;
+  will-change: transform;
 }
 .portfolio-work-card:hover {
   transform: translateY(-8px);
@@ -439,13 +426,6 @@ body {
 }
 .portfolio-work-card:hover .portfolio-work-img {
   transform: scale(1.05);
-}
-
-.portfolio-work-img::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.02) 10px, rgba(255,255,255,0.02) 20px);
 }
 
 /* Colorful images override */
@@ -492,7 +472,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   align-self: flex-start;
-  transition: all 0.3s;
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s, color 0.3s;
 }
 
 .portfolio-work-btn:hover {
@@ -523,8 +503,8 @@ body {
   border: 1px solid var(--portfolio-border);
   border-radius: 8px;
   background-color: var(--portfolio-card-bg);
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  will-change: transform;
 }
 .portfolio-help-item:hover {
   transform: translateX(5px);
@@ -577,10 +557,10 @@ body {
   font-size: 12px;
   font-weight: 600;
   background-color: rgba(255,255,255,0.3);
-  backdrop-filter: blur(5px);
   padding: 12px;
   border-radius: 4px;
   transition: background-color 0.3s, transform 0.3s;
+  will-change: transform;
 }
 .portfolio-contact-item:hover {
   background-color: rgba(255,255,255,0.5);

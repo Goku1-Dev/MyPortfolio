@@ -1,81 +1,74 @@
 # Gokul Sureshkumar
 
-Especialista em Power BI certificado pela Microsoft. Desenvolvo dashboards interativos e automatizados para diferentes áreas de negócio.
+Full-Stack Developer & Designer. I build production web and mobile apps, and engineer custom systems and libraries.
 
-## Sobre mim
-Seja muito bem-vindo(a) ao meu portfólio. Conheça a minha trajetória:
+## About Me
+Welcome to my portfolio. Here is a brief look into my background:
 
-**8+** anos de experiência profissional em Supply Chain, com histórico de atuação como líder de projetos em multinacionais e como freelancer independente. Trabalho com o Power BI desde 2017 e sou apaixonado pelo universo de Dados e design de dashboards. Desde Julho/2021 concentro toda a minha energia em treinamentos e desenvolvimento de profissionais que queiram se especializar no mundo dos dados e Power BI.
+**2+** years of experience as a Full-Stack Developer & Designer. I have built multiple production applications across web and mobile platforms using React, Next.js, Node.js, and Flutter. I specialize in both high-level UI development and deep systems engineering—from designing secure RESTful APIs to building custom JS reactive libraries, C memory allocators, and Git engine clones from scratch.
 
-## Principais habilidades
+## Technical Skills
 
-- **VISUALIZAÇÃO & ANÁLISE DE DADOS**
-  Desenvolvimento de dashboards profissionais e painéis de indicadores como Power BI, Tableau e Excel.
-- **DESIGN DE DASHBOARDS**
-  Aplicação de Figma ao Power BI para elaborar layouts visuais e painéis digitais de business intelligence.
-- **GESTÃO DE PROJETOS**
-  Implementação de softwares (Power BI, TMS e WMS), controle de horas estimadas (BSC) e otimização de processos logísticos.
-- **SUPPLY CHAIN**
-  Sólido conhecimento em transportes, processos de armazenagem, compras e comércio exterior (importação/exportação).
+- **LANGUAGES & FRAMEWORKS**
+  C, C++, Rust, TypeScript, JavaScript, Python. Advanced in React, Next.js, Node.js, React Native, and Flutter.
+- **SYSTEM & BACKEND**
+  Designing secure RESTful APIs with JWT, RBAC, Microservices architecture, MySQL, and PostgreSQL optimization.
+- **UI/UX & DESIGN**
+  Crafting reusable UI components in React and SCSS, alongside logo design and layouts using Figma, Affinity, and Canva.
+- **CORE ENGINEERING**
+  Built custom JS reactive libraries (Fiber architecture, VDOM diffing), memory allocators, and Git engine clones.
 
 ## Works
 
 ### Projects
-Objetivos principais e indicadores: Acompanhar o turnover, admissões, demissões, head count, absenteísmo. Tudo em um painel gerencial.
-- DASHBOARD DE RH
-- DASHBOARD LOGÍSTICA
-- DASHBOARD PRODUÇÃO
-- ANÁLISE DE VENDAS
-- VISÃO ESTRATÉGICA
-- PAINEL EXECUTIVO
-- CONTROLE DE FROTA
-- METAS GLOBAIS
+Core engineering projects focused on reimplementing standard systems, libraries, and low-level tools from scratch.
+- ZENITIX JS LIBRARY
+- REACT FIBER CLONE
+- MEMORY ALLOCATOR
+- GIT VERSION CONTROL
 
 ### Websites
-Objetivos principais e indicadores: Análise detalhada de satisfação dos clientes e metas de performance de produtos.
-- DASHBOARD CUSTOMER NPS
-- DASHBOARD MARKETING
-- DASHBOARD ESTOQUE
-- PORTAL DE VENDAS
-- PLATAFORMA EAD
-- SISTEMA CRM
-- CONTROLE FINANCEIRO
-- PAINEL B2B
+Production-ready, full-stack web applications featuring role-based dashboards, secure APIs, and responsive components.
+- ACADEMIC DASHBOARD
+- OPERATIONS PORTAL
+- ADMIN CONTROL PANEL
+- REAL-TIME MONITORING
+- E-COMMERCE PLATFORM
 
 ### Website Designs
-Objetivos principais e indicadores: Acompanhar a evolução dos projetos, curva S, cronograma, e atividades críticas.
-- DASHBOARD FINANCEIRO
-- DASHBOARD COMPRAS
-- DASHBOARD PROJETOS
-- LAYOUT CORPORATIVO
-- ECOMMERCE MOCKUP
-- PÁGINA DE VENDA
-- DESIGN SYSTEM
-- INTERFACE ADMIN
+Modern, high-conversion landing pages and interactive dashboard layouts crafted using Figma, Canva, and SCSS.
+- FINTECH DASHBOARD UI
+- SaaS LANDING PAGE
+- E-LEARNING PLATFORM UI
+- MODERN PORTFOLIO THEME
+- HEALTHCARE ADMIN PANEL
+- BRAND IDENTITY KIT
+- ECOMMERCE WIREFRAMES
+- REAL ESTATE PORTAL UI
 
 ### Mobile Designs
-Objetivos principais e indicadores: Acompanhar a evolução dos projetos, curva S, cronograma, e atividades críticas.
-- FINANCEIRO APP
-- COMPRAS MOBILE
-- PROJETOS POCKET
-- APP DE LOGÍSTICA
-- MOBILE ANALYTICS
-- CRM DE BOLSO
-- PORTFÓLIO MOBILE
-- UI KIT IOS
+Cross-platform mobile application interfaces prioritizing smooth UX, built via React Native and Flutter design systems.
+- EXPENSE TRACKER APP
+- SOCIAL MEDIA UI KIT
+- FITNESS TRACKER MOBILE
+- DELIVERY LOGISTICS APP
+- CRYPTOCURRENCY WALLET
+- SMART HOME CONTROLLER
+- DATING APP INTERFACE
+- RESTAURANT BOOKING UI
 
-## Como posso te ajudar
+## How I can help you
 
-- **TREINAMENTO ONLINE**
-  Capacitação prática em dashboards e data viz com ferramentas diversas.
-- **DESENVOLVIMENTO DE DASHBOARDS**
-  Elaboração de dashboards personalizados do marco 0 e painéis gerenciais.
-- **CONSULTORIA NA ÁREA DE DADOS**
-  Consultoria on e hands-on, engenharias e boas práticas na vida profissional.
+- **FULL-STACK DEVELOPMENT**
+  End-to-end development of web and mobile apps using React, Node.js, Flutter, and scalable databases.
+- **UI/UX DESIGN & BRANDING**
+  Creation of professional, reusable UI components, logo designs, and layouts via Figma and modern CSS/SCSS.
+- **SYSTEM ARCHITECTURE**
+  Designing secure access control, database performance optimization, and deep systems engineering.
 
-## Entre em contato comigo
+## Get in touch with me
 
-- gokulsureshkumar.in
-- contato@gokuls.com
-- /in/gokulsureshkumar
-- @gokulsureshkumar
+- gokul.in
+- gokul.sureshkumar06@gmail.com
+- +91 959-765-4462
+- Bangalore, India
