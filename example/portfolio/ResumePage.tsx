@@ -1,7 +1,6 @@
 import { h, onMount } from "../../src/index";
 import { portfolioText } from "./text";
-// @ts-ignore
-import resumePdfUrl from "./Public/resume.pdf";
+const resumePdfUrl = "/resume.pdf";
 
 export default function ResumePage() {
   const { resume } = portfolioText;
