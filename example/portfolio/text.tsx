@@ -120,13 +120,66 @@ export const portfolioText = {
   },
   resume: {
     title: "Resume:",
-    subtitle: "Welcome to my portfolio. Get to know my trajectory:",
+    subtitle: "Curriculum Vitae and professional experience.",
     downloadBtn: "Download PDF",
     pdfPlaceholder: "Upload your PDF resume here...",
   },
   otherPages: {
     aboutTitle: "About",
     worksTitle: "Works",
+    resumeTitle: "Resume",
     comingSoon: "Content coming soon...",
+  },
+  aboutPage: {
+    header: {
+      title: "About",
+      subtitle: "Seja muito bem-vindo(a) ao meu portfólio. Conheça a minha trajetória:",
+    },
+    profile: {
+      name: "Gokul Sureshkumar",
+      pronouns: "He/Him",
+      bio: "Full-Stack Developer and Designer with 3+ years building production web and mobile apps using React, Next.js, Node.js, FastAPI, Flutter, and more. I design secure APIs, role-based systems, and real-time interfaces that are fast and purposeful. Beyond shipping products, I go deep — I've built a custom JSX compiler, a React Fiber clone, a memory allocator in C, and a Git engine from scratch. I bridge engineering and design using Figma, Affinity, and CorelDRAW to create experiences that look as good as they work.",
+    },
+    workExperience: {
+      title: "Work Experience",
+      items: [
+        {
+          company: "Maitreya Technologies Pvt. Ltd",
+          role: "Full-Stack Developer & Designer",
+          date: "Apr 2023 – Present",
+          location: "Hosur, India • Remote",
+          achievements: [
+            "Built 4+ production applications across web and mobile platforms using React.js, Next.js, Node.js, FastAPI, React Native, Flutter, MySQL, PostgreSQL, Firebase, and SCSS.",
+            "Developed 50+ reusable UI components in React.js and SCSS, enforcing consistent design patterns and reducing redundant development effort across multiple product modules.",
+            "Designed secure RESTful APIs using Node.js and FastAPI with JWT authentication and RBAC, managing controlled access across 5+ user roles.",
+            "Built role-specific dashboards for administrative, academic, and operational users, implementing context-aware access levels that streamlined workflows and improved team productivity.",
+            "Developed cross-platform mobile apps using React Native and Flutter, integrating Firebase Authentication and Realtime Database for real-time expense tracking and data synchronization.",
+            "Built real-time monitoring interfaces with dynamic waveform rendering and live signal dashboards for continuous embedded hardware data streams.",
+            "Optimized MySQL and PostgreSQL performance via query restructuring and indexing, achieving 30–40% faster data retrieval while contributing to Agile development and stable production releases."
+          ]
+        }
+      ]
+    },
+    skills: {
+      title: "Skills",
+      categories: [
+        {
+          name: "Programming Languages",
+          values: "C, C++, Rust, TypeScript, JavaScript, Python"
+        },
+        {
+          name: "Frameworks & Libraries",
+          values: "React, Next.js, Node.js, React Native, MySQL, PostgreSQL, Firebase, Git"
+        },
+        {
+          name: "Concepts & Design",
+          values: "System Design, Design Patterns, Logo design, Microservices"
+        },
+        {
+          name: "Tools",
+          values: "Figma, Affinity, CorelDRAW, Adobe, Canva"
+        }
+      ]
+    }
   },
 };
