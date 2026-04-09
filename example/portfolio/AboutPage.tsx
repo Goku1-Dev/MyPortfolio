@@ -12,8 +12,8 @@ export default function AboutPage() {
       </div>
 
       <div class="portfolio-about-banner-container">
-        <img class="portfolio-about-banner" src="./portfolio/Public/banner.png" alt="Banner background" />
-        <img class="portfolio-about-avatar" src="./portfolio/Public/profile.jpeg" alt="Profile picture" />
+        <img class="portfolio-about-banner" src="/portfolio/Public/banner.png" alt="Banner background" />
+        <img class="portfolio-about-avatar" src="/portfolio/Public/profile.jpeg" alt="Profile picture" />
       </div>
 
       <div class="portfolio-about-profile">
