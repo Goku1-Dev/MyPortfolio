@@ -32,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: introSlideUp 1s cubic-bezier(0.85, 0, 0.15, 1) 4.5s forwards;
+  animation: introSlideUp 1s cubic-bezier(0.85, 0, 0.15, 1) 3.6s forwards;
 }
 
 .portfolio-intro-wrapper {
@@ -86,29 +86,78 @@ body {
 }
 
 @keyframes introShapeSpinMorph {
-  0% { transform: scale(0) rotate(0deg); opacity: 0; border-radius: 50%; }
-  30% { transform: scale(1) rotate(90deg); opacity: 1; border-radius: 4px; }
-  75% { transform: scale(1) rotate(270deg); opacity: 1; border-radius: 4px; border-width: 4px; }
-  100% { transform: scale(0) rotate(450deg); opacity: 0; border-radius: 50%; border-width: 30px; }
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+
+  30% {
+    transform: scale(1) rotate(90deg);
+    opacity: 1;
+    border-radius: 4px;
+  }
+
+  75% {
+    transform: scale(1) rotate(270deg);
+    opacity: 1;
+    border-radius: 4px;
+    border-width: 4px;
+  }
+
+  100% {
+    transform: scale(0) rotate(450deg);
+    opacity: 0;
+    border-radius: 50%;
+    border-width: 30px;
+  }
 }
 
 @keyframes introLogoPopOut {
-  0% { transform: scale(0); opacity: 0; filter: blur(10px); }
-  30% { opacity: 1; filter: blur(0px); }
-  100% { transform: scale(1); opacity: 1; filter: blur(0px); }
+  0% {
+    transform: scale(0);
+    opacity: 0;
+    filter: blur(10px);
+  }
+
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
 }
 
 @keyframes introLogoShrink {
-  100% { width: 70px; height: 70px; }
+  100% {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @keyframes introTextFadeIn {
-  100% { width: 230px; margin-left: 20px; opacity: 1; }
+  100% {
+    width: 230px;
+    margin-left: 20px;
+    opacity: 1;
+  }
 }
 
 @keyframes introSlideUp {
-  0% { transform: translateY(0); visibility: visible; }
-  100% { transform: translateY(-100%); visibility: hidden; display: none; }
+  0% {
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateY(-100%);
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /* Animations */
