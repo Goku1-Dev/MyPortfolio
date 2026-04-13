@@ -21,7 +21,7 @@ export function h(
 ): Node {
   if (typeof tag === "function") {
     const props_ = props ? { ...props } : {};
-    
+
     // Mount varargs into props so functional components can access their inner JSX
     if (children.length > 0) {
       props_.children = children.length === 1 ? children[0] : children;
@@ -83,12 +83,12 @@ export function h(
   }
 
   const svgTags = new Set([
-    "svg", "path", "line", "circle", "rect", "ellipse", "polyline", "polygon", 
+    "svg", "path", "line", "circle", "rect", "ellipse", "polyline", "polygon",
     "text", "tspan", "defs", "g", "symbol", "use", "image", "clippath", "mask", "pattern"
   ]);
 
   const isSVG = svgTags.has(tag) || (parent instanceof Element && parent.namespaceURI === "http://www.w3.org/2000/svg");
-  const el = isSVG 
+  const el = isSVG
     ? (document.createElementNS("http://www.w3.org/2000/svg", tag) as any) as HTMLElement
     : document.createElement(tag);
 
@@ -105,11 +105,16 @@ function applyProps(el: HTMLElement, props: Record<string, any>, isSVG = false) 
     if (key === "key") return;
     if (key === "__key") return;
 
+    if (key === "dangerouslySetInnerHTML" && val?.__html !== undefined) {
+      el.innerHTML = val.__html;
+      return;
+    }
+
     if (key.startsWith("on") && typeof val === "function") {
       el.addEventListener(key.slice(2).toLowerCase(), val);
       return;
     }
-    
+
     if (typeof val === "function") {
       createEffect(() => {
         const v = val();
@@ -212,7 +217,7 @@ function applyReactive(parent: Node, fn: () => Child) {
       const fragment = document.createDocumentFragment();
       children.forEach(c => {
         if (c === null || c === undefined || c === false) return;
-        
+
         const n = toNode(c);
         if (n instanceof DocumentFragment) {
           // Track all individual nodes from the fragment
@@ -243,7 +248,7 @@ function toNode(child: Child): Node {
   if (typeof child === "function") {
     const n = document.createTextNode("");
     createEffect(() => {
-       n.textContent = String(child());
+      n.textContent = String(child());
     });
     return n;
   }

@@ -1,7 +1,9 @@
+import { title } from "process";
+
 export const portfolioText = {
   sidebar: {
     logo: "Gokul S",
-    navItems: ["HOME", "ABOUT", "WORKS", "RESUME"],
+    navItems: ["HOME", "ABOUT", "PROJECTS", "DESIGNS", "RESUME"],
   },
   home: {
     header: {
@@ -37,10 +39,10 @@ export const portfolioText = {
         },
       ],
     },
-    works: {
-      sectionTitle: "Explore My Works:",
+    projects: {
+      sectionTitle: "Explore My Projects:",
       viewAllBtn: "View All",
-      detailBtn: "⌕ View details",
+      detailBtn: "View details",
       categories: [
         {
           title: "Projects",
@@ -63,6 +65,13 @@ export const portfolioText = {
             { title: "E-COMMERCE PLATFORM", colorMode: "color-2" },
           ],
         },
+      ],
+    },
+    designs: {
+      sectionTitle: "Explore My Designs:",
+      viewAllBtn: "View All",
+      detailBtn: "View details",
+      categories: [
         {
           title: "Website Designs",
           desc: "Modern, high-conversion landing pages and interactive dashboard layouts crafted using Figma, Canva, and SCSS.",
@@ -126,7 +135,8 @@ export const portfolioText = {
   },
   otherPages: {
     aboutTitle: "About",
-    worksTitle: "Works",
+    projectsTitle: "Projects",
+    designsTitle: "Designs",
     resumeTitle: "Resume",
     comingSoon: "Content coming soon...",
   },

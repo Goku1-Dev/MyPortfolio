@@ -12,16 +12,18 @@ export default function Sidebar() {
   return (
     <div>
       {/* Mobile Overlay */}
-      <div 
+      <div
         class={() => (isSidebarOpen ? "portfolio-sidebar-overlay active" : "portfolio-sidebar-overlay")}
         onClick={() => toggleSidebar()}
       ></div>
 
       <aside class={() => (isSidebarOpen ? "portfolio-sidebar open" : "portfolio-sidebar")}>
-        <div class="portfolio-logo">{logo}</div>
+        <div class="portfolio-logo">
+          <img src="/logo.svg" alt={logo} class="portfolio-logo-img" />
+        </div>
         <nav class="portfolio-nav">
-          <div 
-            class="portfolio-nav-indicator" 
+          <div
+            class="portfolio-nav-indicator"
             style={() => `transform: translateY(${getActiveIndex() !== -1 ? getActiveIndex() * 56 : 0}px); opacity: ${getActiveIndex() !== -1 ? 1 : 0}`}
           ></div>
           {navItems.map((item) => {
