@@ -7,6 +7,7 @@ import ProjectsPage from "./ProjectsPage";
 import DesignsPage from "./DesignsPage";
 import ResumePage from "./ResumePage";
 import ContactFooter from "./ContactFooter";
+import IntroReveal from "./IntroReveal";
 import "./PortfolioStyles.css";
 
 export default function Home() {
@@ -30,6 +31,9 @@ export default function Home() {
 
   return (
     <div class="portfolio-layout">
+      {/* Intro Reveal Animation */}
+      <IntroReveal />
+
       {/* Sidebar */}
       <Sidebar />
 

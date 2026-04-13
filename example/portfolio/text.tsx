@@ -155,6 +155,7 @@ export const portfolioText = {
       items: [
         {
           company: "Maitreya Technologies Pvt. Ltd",
+          companyUrl: "https://maits.in/",
           role: "Full-Stack Developer & Designer",
           date: "Apr 2023 – Present",
           location: "Hosur, India • Remote",
