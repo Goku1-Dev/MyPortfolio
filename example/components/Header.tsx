@@ -1,1 +1,0 @@
-export default function Header() { return <header class="header" style="background: var(--bg-card); color: var(--text); padding: 1rem; border-bottom: 1px solid var(--border);">User Header</header> }
